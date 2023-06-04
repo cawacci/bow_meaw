@@ -1,0 +1,10 @@
+<title>Animal Predict App </title>
+
+{% if animalName %}
+    <h1>この画像は{{animalName}}だと思われます</h1>
+    <div>
+        <img src="{{ img }}" alt="入力画像">
+    </div>
+{% endif %}
+
+<a href="/">トップへ戻る</a>
